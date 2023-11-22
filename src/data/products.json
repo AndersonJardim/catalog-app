@@ -2,11 +2,13 @@
     {
         "id": 1,
         "name": "Produto 1",
+        "category": "Eletrônicos",
         "price": 19.99
     },
     {
         "id": 2,
         "name": "Produto 2",
+        "category": "Roupas",
         "price": 29.99
     }
 ]
