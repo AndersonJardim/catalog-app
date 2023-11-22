@@ -34,7 +34,6 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
     };
 
     const handleAddToCart = () => {
-        // Adicione o produto ao carrinho (pode implementar uma lógica mais complexa aqui)
         setCartItems(cartItems + 1);
     };
 
@@ -46,7 +45,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
     });
 
     return (
-        <div>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h2>Lista de Produtos</h2>
 
             <div>
@@ -66,14 +65,15 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                 </select>
             </div>
 
-            <ul>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
                 {filteredProducts.map((product) => (
-                    <li key={product.id} onClick={() => handleProductClick(product)}>
-                        {product.name} - R${product.price.toFixed(2)}{' '}
+                    <div key={product.id} onClick={() => handleProductClick(product)} style={{ border: '1px solid #ddd', padding: '10px', cursor: 'pointer' }}>
+                        <p>{product.name}</p>
+                        <p>R${product.price.toFixed(2)}</p>
                         <button onClick={handleAddToCart}>Adicionar ao Carrinho</button>
-                    </li>
+                    </div>
                 ))}
-            </ul>
+            </div>
 
             {selectedProduct && <ProductDetails product={selectedProduct} />}
 

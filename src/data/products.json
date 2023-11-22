@@ -10,5 +10,11 @@
         "name": "Produto 2",
         "category": "Roupas",
         "price": 29.99
+    },
+    {
+        "id": 3,
+        "name": "Produto 3",
+        "category": "Papelaria",
+        "price": 55.99
     }
 ]
