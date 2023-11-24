@@ -1,7 +1,8 @@
-// App.tsx
 import React from 'react';
 import ProductList from './components/ProductList';
 import products from './data/products.json';
+
+import './styles.css'
 
 const App: React.FC = () => {
   return (

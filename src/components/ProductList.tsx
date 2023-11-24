@@ -1,7 +1,7 @@
-// ProductList.tsx
 import React, { useState } from 'react';
 import ProductDetails from './ProductDetails';
 import ShoppingCart from './ShoppingCart';
+import Navbar from './Navbar';
 
 interface Product {
     id: number;

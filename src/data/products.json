@@ -1,20 +1,42 @@
 [
     {
         "id": 1,
-        "name": "Produto 1",
-        "category": "Eletrônicos",
-        "price": 19.99
+        "name": "Coca-Cola 2 Litros",
+        "description": "Coca-Cola 2 Litros",
+        "price": 10.59,
+        "category": "Bebida",
+        "image": "images/CocaCola.jpg"
     },
     {
         "id": 2,
-        "name": "Produto 2",
-        "category": "Roupas",
-        "price": 29.99
+        "name": "Leite Condensado Nestlé Moça Original Lata 395g",
+        "description": "Qualquer bom entendedor de cozinha sabe que um dos ingredientes básicos e essenciais para quem gosta de fazer doces é o leite condensado. ",
+        "price": 7.59,
+        "category": "Comida",
+        "image": "images/LeiteCondensado.jpg"
     },
     {
         "id": 3,
-        "name": "Produto 3",
-        "category": "Papelaria",
-        "price": 55.99
+        "name": "Geladeira Brastemp Bre57 Frost Free 443 Litros Inox - 110v",
+        "description": "A Geladeira Brastemp Frost Free Inverse 443 litros possui refrigerador em cima e freezer embaixo, deixando os alimentos mais utilizados sempre à mão. Com a função Turbo Ice, tenha gelo mais rápido sempre que precisar.",
+        "price": 3999.99,
+        "category": "Eletronicos",
+        "image": "images/GeladeiraBrastempBre57.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Aparador De Grama 127v Ap1000 Tramontina",
+        "description": "Para fazer ainda mais bonito no seu jardim, a Tramontina modernizou o aparador de grama. Com novo design e detalhes que facilitam o uso, o aparador de grama AP1000T é a melhor opção para fazer acabamentos, contornos e bordas no jardim. Criado especialmente para aparar locais que o cortador não consegue atingir, ele garante muito mais facilidade e um acabamento perfeito na hora de cortar e aparar o jardim.",
+        "price": 249.99,
+        "category": "Eletronicos",
+        "image": "images/AparadorDeGramaAp1000.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bicicleta Infantil Aro 12 Hot Styll - Styll Baby",
+        "description": "Bicicleta infantil Aro 12. Acompanha um radical simulador de acelerador. Quadro e garfo fabricados em aço carbono de alta qualidade. Manoplas e manete anatõmicos.",
+        "price": 159.99,
+        "category": "Esport",
+        "image": "images/BicicletaInfantil.jpg"
     }
 ]
